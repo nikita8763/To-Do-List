@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href = "C:\Users\KIIT\Desktop\Personal projects\To-Do-List\68-680210_to-do-list-do-list-vector-png.png"
+        type = "image/x-icon">
+</head>
+<body>
+    <!-- To-Do List Page -->
+    <div class="container">
+        <div class="todo-app">
+            <!-- name and image -->
+            <h2>To-Do List <img src="icon.png" alt=""></h2>
+            <!-- input box and button -->
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <!-- list of things entered from input box -->
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
